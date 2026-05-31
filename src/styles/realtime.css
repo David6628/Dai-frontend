@@ -1,0 +1,76 @@
+/* Visual tweaks for Realtime page */
+.container {
+  padding: 28px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #1f2937;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.container h1 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.container h2 {
+  font-size: 1.1rem;
+}
+
+/* Card styles */
+.card {
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e8eef8;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(16,24,40,0.03);
+}
+
+.card-compact {
+  padding: 12px;
+}
+
+input, select, button {
+  font-family: inherit;
+}
+
+/* Schedule list */
+.schedule-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px 14px;
+  border: 1px solid #f1f5f9;
+}
+
+.schedule-item .stop {
+  font-weight: 700;
+}
+
+.schedule-item .time {
+  color: #4b5563;
+  margin-top: 6px;
+}
+
+/* Map container */
+.map-wrapper {
+  position: relative;
+  background: linear-gradient(180deg, #eef4fb 0%, #ffffff 100%);
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #d6e6ff;
+}
+
+#leaflet-map {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  border-radius: 10px;
+}
+
+.vehicle-list button {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .container { padding: 18px; }
+}
